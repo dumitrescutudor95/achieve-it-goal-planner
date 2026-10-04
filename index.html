@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#5B4BFF">
+<meta name="description" content="Achieve IT turns a goal into one clear number for today. Privacy policy and support.">
+<title>Achieve IT</title>
+<style>
+:root{
+  --accent:#5B4BFF;--accent-ink:#4337E0;--accent-soft:#EEECFF;
+  --bg:#F7F7FB;--card:#FFFFFF;--ink:#16151F;--muted:#5C5B6B;--line:#E4E3EE;
+  --radius:16px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --accent:#8A7DFF;--accent-ink:#A79DFF;--accent-soft:#25223F;
+    --bg:#0E0D14;--card:#17161F;--ink:#F1F0F7;--muted:#A3A1B5;--line:#2A2837;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  padding:0 16px env(safe-area-inset-bottom)}
+.wrap{max-width:760px;margin:0 auto}
+header.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:20px 0 8px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:700;font-size:18px}
+.logo{width:34px;height:34px;border-radius:10px;background:var(--accent);display:grid;place-items:center}
+.logo svg{width:20px;height:20px}
+nav.langs{display:flex;gap:4px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px}
+nav.langs a{display:block;padding:6px 12px;border-radius:999px;color:var(--muted);text-decoration:none;font-size:14px;font-weight:600;min-width:44px;text-align:center}
+nav.langs a[aria-current="true"]{background:var(--accent);color:#fff}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;margin:16px 0}
+h1{font-size:30px;line-height:1.2;margin:8px 0 4px;letter-spacing:-.01em}
+h2{font-size:19px;line-height:1.3;margin:28px 0 8px}
+h2:first-child{margin-top:0}
+p,ul{margin:0 0 12px}
+ul{padding-left:22px}
+li{margin:4px 0}
+a{color:var(--accent-ink)}
+.meta{color:var(--muted);font-size:14px;margin:0 0 8px}
+.summary{background:var(--accent-soft);border-radius:12px;padding:16px 18px;margin:16px 0 0}
+.summary p{margin:0}
+footer{color:var(--muted);font-size:14px;padding:8px 0 32px;display:flex;gap:16px;flex-wrap:wrap}
+footer a{color:var(--muted)}
+details{border-top:1px solid var(--line);padding:4px 0}
+details:first-of-type{border-top:0}
+summary{cursor:pointer;font-weight:650;font-size:17px;padding:12px 28px 12px 0;list-style:none;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:4px;top:8px;font-size:22px;color:var(--accent-ink);font-weight:500}
+details[open] summary::after{content:"\2212"}
+ol{margin:0 0 12px;padding-left:22px}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:650;padding:12px 20px;border-radius:12px}
+.links{display:grid;gap:12px;margin:16px 0}
+.links a.card{display:block;margin:0;text-decoration:none;color:var(--ink)}
+.links a.card strong{display:block;font-size:18px;margin-bottom:2px}
+.links a.card span{color:var(--muted)}
+.links a.card:hover{border-color:var(--accent)}
+.l{display:none}
+html[data-lang="en"] .l[lang="en"],html[data-lang="fr"] .l[lang="fr"],
+html[data-lang="es"] .l[lang="es"],html[data-lang="ro"] .l[lang="ro"]{display:block}
+@media (max-width:480px){.card{padding:18px}h1{font-size:26px}}
+</style>
+<noscript><style>.l{display:block!important}.l+.l{border-top:1px solid var(--line);padding-top:8px}nav.langs{display:none}</style></noscript>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <a class="brand js-keep" href="index.html"><span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16"/><path d="M6 16l4-5 3 3 5-7"/></svg></span>Achieve IT</a>
+  <nav class="langs" aria-label="Language">
+    <a href="#en" data-l="en" hreflang="en">EN</a><a href="#fr" data-l="fr" hreflang="fr">FR</a><a href="#es" data-l="es" hreflang="es">ES</a><a href="#ro" data-l="ro" hreflang="ro">RO</a>
+  </nav>
+</header>
+
+<!-- ============================== ENGLISH ============================== -->
+<main class="l" lang="en" id="en">
+<h1>Goals have a cost. Know yours.</h1>
+<p class="meta">Achieve IT turns a goal into one clear number for today, shows whether you are on track, and helps you adjust when life gets in the way. No account, no ads, and your data stays on your phone.</p>
+<nav class="links">
+<a class="card js-keep" href="privacy.html"><strong>Privacy Policy</strong><span>What stays on your device, and the little that does not.</span></a>
+<a class="card js-keep" href="support.html"><strong>Support</strong><span>FAQ, restoring and cancelling subscriptions, contact.</span></a>
+</nav>
+</main>
+
+<!-- ============================== FRANÇAIS ============================== -->
+<main class="l" lang="fr" id="fr">
+<h1>Vos objectifs ont un coût. Connaissez-le.</h1>
+<p class="meta">Achieve IT transforme un objectif en un chiffre clair pour aujourd'hui, vous indique si vous êtes dans les temps et vous aide à ajuster quand la vie s'en mêle. Pas de compte, pas de publicité, vos données restent sur votre téléphone.</p>
+<nav class="links">
+<a class="card js-keep" href="privacy.html"><strong>Politique de confidentialité</strong><span>Ce qui reste sur votre appareil, et le peu qui en sort.</span></a>
+<a class="card js-keep" href="support.html"><strong>Assistance</strong><span>FAQ, restauration et résiliation de l'abonnement, contact.</span></a>
+</nav>
+</main>
+
+<!-- ============================== ESPAÑOL ============================== -->
+<main class="l" lang="es" id="es">
+<h1>Tus objetivos tienen un coste. Conócelo.</h1>
+<p class="meta">Achieve IT convierte un objetivo en una cifra clara para hoy, te dice si vas bien y te ayuda a ajustar cuando la vida se complica. Sin cuenta, sin anuncios y tus datos se quedan en tu teléfono.</p>
+<nav class="links">
+<a class="card js-keep" href="privacy.html"><strong>Política de privacidad</strong><span>Lo que se queda en tu dispositivo y lo poco que sale.</span></a>
+<a class="card js-keep" href="support.html"><strong>Soporte</strong><span>Preguntas frecuentes, restaurar y cancelar la suscripción, contacto.</span></a>
+</nav>
+</main>
+
+<!-- ============================== ROMÂNĂ ============================== -->
+<main class="l" lang="ro" id="ro">
+<h1>Obiectivele au un cost. Află-l pe al tău.</h1>
+<p class="meta">Achieve IT transformă un obiectiv într-un singur număr clar pentru azi, îți arată dacă ești la zi și te ajută să te ajustezi când intervine viața. Fără cont, fără reclame, iar datele rămân pe telefonul tău.</p>
+<nav class="links">
+<a class="card js-keep" href="privacy.html"><strong>Politica de confidențialitate</strong><span>Ce rămâne pe dispozitivul tău și puținul care pleacă.</span></a>
+<a class="card js-keep" href="support.html"><strong>Asistență</strong><span>Întrebări frecvente, restaurarea și anularea abonamentului, contact.</span></a>
+</nav>
+</main>
+
+<footer>
+  <a href="index.html" class="js-keep">Achieve IT</a>
+  <a href="privacy.html" class="js-keep">Privacy</a>
+  <a href="support.html" class="js-keep">Support</a>
+  <span>&copy; 2026 Tudor Dumitrescu</span>
+</footer>
+</div>
+<script>
+(function(){
+  var langs=["en","fr","es","ro"],root=document.documentElement;
+  function set(l,save){
+    if(langs.indexOf(l)<0)l="en";
+    root.setAttribute("data-lang",l);root.lang=l;
+    var a=document.querySelectorAll("nav.langs a");
+    for(var i=0;i<a.length;i++)a[i].setAttribute("aria-current",a[i].getAttribute("data-l")===l?"true":"false");
+    var k=document.querySelectorAll(".js-keep");
+    for(var j=0;j<k.length;j++)k[j].href=k[j].href.split("#")[0]+"#"+l;
+    if(save){try{localStorage.setItem("lang",l)}catch(e){}}
+  }
+  var h=location.hash.slice(1),s=null;
+  try{s=localStorage.getItem("lang")}catch(e){}
+  set(langs.indexOf(h)>=0?h:(s||"en"),false);
+  window.addEventListener("hashchange",function(){var x=location.hash.slice(1);if(langs.indexOf(x)>=0){set(x,true);window.scrollTo(0,0)}});
+  var a=document.querySelectorAll("nav.langs a");
+  for(var i=0;i<a.length;i++)a[i].addEventListener("click",function(e){e.preventDefault();var l=this.getAttribute("data-l");set(l,true);history.replaceState(null,"","#"+l);window.scrollTo(0,0)});
+})();
+</script>
+</body>
+</html>
